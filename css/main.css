@@ -16,6 +16,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  font-size: var(--font-size-2);
+}
+
 body {
   font-family: var(--font-sans);
   color: var(--gray-12);
@@ -70,5 +74,61 @@ header .container.flex {
 }
 
 .nav-item a:hover {
+  color: var(--orange-5);
+}
+
+#hero {
+  min-height: auto;
+  background: url(/images/banner-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: right top;
+}
+
+#hero .container.flex {
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding-block: var(--size-13);
+}
+
+.hero-text {
+  padding-inline-end: var(--size-8);
+  flex: 2;
+}
+
+.flex-control {
+  flex: 3;
+}
+
+.hero-text.flex {
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.hero-text h2 {
+  font-size: var(--font-size-6);
+  font-weight: var(--font-weight-8);
+  padding-block-end: var(--size-5);
+}
+
+.hero-text p {
+  color: var(--gray-8);
+  margin-block-end: var(--size-5);
+}
+
+.btn {
+  background-color: var(--orange-5);
+  color: var(--gray-0);
+  padding-inline: var(--size-5);
+  padding-block: var(--size-2);
+  border-radius: var(--radius-5);
+}
+
+.btn:hover {
+  background-color: var(--purple-4);
+}
+
+span.primary-color {
   color: var(--orange-5);
 }
