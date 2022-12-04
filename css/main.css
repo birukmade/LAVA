@@ -281,6 +281,15 @@ span.primary-color {
   font-size: var(--font-size-0);
 }
 
+#slant {
+  height: 20rem;
+  position: relative;
+  left: 0;
+  top: var(--size-12);
+  background-color: #ffffff;
+  transform: skewy(-18deg);
+}
+
 #main-footer {
   margin-top: var(--size-10);
   padding-block-start: var(--size-12);
@@ -289,6 +298,7 @@ span.primary-color {
 form {
   background-color: var(--gray-0);
   text-align: center;
+  z-index: 5;
 }
 
 .user-contact {
