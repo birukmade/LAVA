@@ -44,6 +44,7 @@ header .container {
   top: 0.5rem;
   left: calc(50% - 32.5rem);
   background-color: #ffffff;
+  z-index: 10;
 }
 
 .flex {
