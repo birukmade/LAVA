@@ -1,0 +1,30 @@
+@media (max-width: 64rem) {
+  header .container {
+    width: 100vw;
+    top: 0;
+    left: 0;
+  }
+
+  #hero .container.flex {
+    display: block;
+    height: auto;
+    padding-top: 100%;
+  }
+
+  .hero-text {
+    margin-top: var(--size-10);
+  }
+
+  #promotion .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .promotion-image {
+    justify-self: center;
+  }
+
+  .promotion-item {
+    flex-direction: column;
+  }
+}

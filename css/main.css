@@ -87,18 +87,17 @@ header .container.flex {
   min-height: 100vh;
   background: url(/images/banner-bg.png);
   background-repeat: no-repeat;
-  background-position: center;
   background-position: right top;
+  background-size: contain;
 }
 
 #hero .container.flex {
   height: 100vh;
   justify-content: flex-start;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .hero-text {
-  padding-inline-end: var(--size-3);
   flex: 2;
 }
 
