@@ -186,3 +186,31 @@ span.primary-color {
   position: absolute;
   top: 0;
 }
+
+#promotion {
+  padding-block: var(--size-5);
+  margin-top: var(--size-12);
+}
+
+#promotion.container {
+  align-items: center;
+}
+.promotion-items {
+  flex-direction: column;
+  justify-content: space-between;
+}
+.promotion-item {
+  margin-block: var(--size-5);
+  align-items: flex-start;
+}
+.promotion-item-image {
+  flex: 1;
+}
+.promotion-item-text {
+  flex: 3;
+}
+
+.promotion-item-text h3 {
+  font-size: var(--font-size-3);
+  font-weight: var(--font-weight-6);
+}
