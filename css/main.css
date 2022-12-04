@@ -23,6 +23,7 @@ p {
 body {
   font-family: var(--font-sans);
   color: var(--gray-12);
+  line-height: 1.6;
 }
 
 header {
@@ -33,13 +34,16 @@ header a {
 }
 
 .container {
-  width: min(65rem, 90%);
+  width: min(68rem, 90%);
   margin: auto;
-  padding: var(--size-5);
+  padding: var(--size-2);
 }
 
 header .container {
-  background-color: var(--gray-1);
+  position: fixed;
+  top: 0.5rem;
+  left: calc(50% - 32.5rem);
+  background-color: #ffffff;
 }
 
 .flex {
@@ -78,7 +82,7 @@ header .container.flex {
 }
 
 #hero {
-  min-height: auto;
+  min-height: 100vh;
   background: url(/images/banner-bg.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -86,13 +90,13 @@ header .container.flex {
 }
 
 #hero .container.flex {
+  height: 100vh;
   justify-content: flex-start;
   align-items: flex-end;
-  padding-block: var(--size-13);
 }
 
 .hero-text {
-  padding-inline-end: var(--size-8);
+  padding-inline-end: var(--size-3);
   flex: 2;
 }
 
