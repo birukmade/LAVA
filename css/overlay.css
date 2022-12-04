@@ -26,6 +26,11 @@
   display: none;
 }
 
+#mobile-nav .humburger {
+  margin-inline-start: var(--size-7);
+  margin-block-start: var(--size-7);
+}
+
 #mobile-nav ul {
   flex-wrap: nowrap;
   height: 10rem;
