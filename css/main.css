@@ -175,6 +175,7 @@ span.primary-color {
 
 .feature p {
   margin-block-end: var(--size-5);
+  color: var(--gray-8);
 }
 
 .decoration {
@@ -213,6 +214,10 @@ span.primary-color {
 .promotion-item-text h3 {
   font-size: var(--font-size-3);
   font-weight: var(--font-weight-6);
+}
+
+.promotion-item-text p {
+  color: var(--gray-8);
 }
 
 .decoration.right img {
