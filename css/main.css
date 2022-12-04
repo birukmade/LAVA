@@ -176,3 +176,13 @@ span.primary-color {
 .feature p {
   margin-block-end: var(--size-5);
 }
+
+.decoration {
+  position: relative;
+  top: -12.5rem;
+}
+
+.decoration img {
+  position: absolute;
+  top: 0;
+}
