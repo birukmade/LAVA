@@ -30,6 +30,11 @@
 }
 
 @media (max-width: 48rem) {
+  header .container {
+    padding: var(--size-5);
+  }
+  #logo {
+  }
   #main-nav {
     display: none;
   }
