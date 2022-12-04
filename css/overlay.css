@@ -56,8 +56,4 @@
   .humburger {
     display: flex;
   }
-
-  #mobile-nav {
-    display: block;
-  }
 }
