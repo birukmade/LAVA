@@ -24,11 +24,11 @@ body {
   font-family: var(--font-sans);
   color: var(--gray-12);
   line-height: 1.6;
+  position: relative;
 }
-
 header {
+  position: relative;
 }
-
 header a {
   color: var(--gray-8);
 }
