@@ -28,3 +28,29 @@
     flex-direction: column;
   }
 }
+
+@media (max-width: 48rem) {
+  #main-nav {
+    display: none;
+  }
+
+  #features.grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .testimonial-statements {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  #main-footer .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    gap: var(--size-12);
+  }
+
+  .footer-text {
+    align-self: center;
+  }
+}
