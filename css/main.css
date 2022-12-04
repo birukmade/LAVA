@@ -218,3 +218,58 @@ span.primary-color {
 .decoration.right img {
   right: 0;
 }
+
+#testimonials {
+  padding-block: var(--size-5);
+  margin-top: var(--size-12);
+}
+
+.testimonials-header {
+  text-align: center;
+}
+
+.testimonials-header h2 {
+  font-size: var(--font-size-6);
+  font-weight: var(--font-weight-8);
+  padding-block-end: var(--size-5);
+}
+
+.testimonials-header p {
+  color: var(--gray-8);
+}
+
+.statements {
+  margin-block-start: var(--size-12);
+}
+
+.testimonial-statements {
+  gap: var(--size-12);
+}
+.testimonial-statement {
+  text-align: center;
+  background-color: var(--orange-5);
+  border-radius: var(--radius-3);
+  padding-inline: var(--size-3);
+  padding-block: var(--size-10);
+  box-shadow: var(--shadow-4);
+  position: relative;
+}
+
+.testimonial-statement-image {
+  position: absolute;
+  top: -4rem;
+  left: -4rem;
+}
+.testimonial-statement-content {
+}
+.testimonial-statement-ratting i {
+  color: var(--gray-0);
+}
+.testimonial-statement-text p {
+  color: var(--gray-0);
+  margin-block: var(--size-5);
+}
+.testimonial-statement-author-title {
+  color: var(--gray-0);
+  font-size: var(--font-size-0);
+}
