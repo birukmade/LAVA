@@ -30,6 +30,9 @@
 }
 
 @media (max-width: 48rem) {
+  .backdrop.active {
+    display: block;
+  }
   header .container {
     padding: var(--size-5);
   }
@@ -37,6 +40,10 @@
   }
   #main-nav {
     display: none;
+  }
+
+  #mobile-nav.active {
+    display: block;
   }
 
   #features.grid {

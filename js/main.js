@@ -16,12 +16,12 @@ for (const mobileNavItemLink of mobileNavItemLInkElements) {
 }
 
 function openSideDrawer() {
-  mobilelNav.style.display = "block";
-  backdropElement.style.display = "block";
+  mobilelNav.classList.toggle("active");
+  backdropElement.classList.toggle("active");
 }
 
 colseHumbergerIconElement.addEventListener("click", closeSideDrawer);
 function closeSideDrawer() {
-  mobilelNav.style.display = "none";
-  backdropElement.style.display = "none";
+  mobilelNav.classList.toggle("active");
+  backdropElement.classList.toggle("active");
 }
